@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+        <title>Students Management</title>
+    </head>
+    <body>
+        <fieldset id="studentsFieldset">
+            <legend>Students Management System</legend>
+            <div id="sideToolsBar">
+                <fieldset id="addStudent">
+                    <legend>Add a Student</legend>
+                    <label>
+                        Surname:
+                        <input class="addStudentInput" id="surnameAddStudentInput"/>
+                    </label>
+                    <label>
+                        Name:
+                        <input class="addStudentInput" id="nameAddStudentInput"/>
+                    </label>
+                    <label>
+                        Patronymic:
+                        <input class="addStudentInput" id="patronymicAddStudentInput"/>
+                    </label>
+                    <label>
+                        Date of birth:
+                        <input
+                            class="addStudentInput"
+                            id="dateOfBirthAddStudentInput"
+                            type="date"
+                            min="1900-01-01"
+                            max="2007-12-31"
+                        />
+                    </label>
+                    <label>
+                        Group:
+                        <input class="addStudentInput" id="groupAddStudentInput"/>
+                    </label>
+                    <button id="addStudentButton">Add</button>
+                </fieldset>
+                <fieldset id="deleteStudent">
+                    <legend>Delete a Student</legend>
+                    <label> Id: <input class="deleteStudentInput" id="idDeleteStudentInput"/> </label>
+                    <button id="deleteStudentButton">Delete</button>
+                </fieldset>
+                <fieldset id="loadStudents">
+                    <legend>Show all Students</legend>
+                    <button id="loadStudentsButton">Load</button>
+                </fieldset>
+            </div>
+            <div class="customTable">
+                <table id="studentsTable">
+                    <caption>
+                        <h1>Students</h1>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Surname</th>
+                            <th>Name</th>
+                            <th>Patronymic</th>
+                            <th>Date of birth</th>
+                            <th>Group</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div id="tableNavigation">
+                    <label id="itemsPerPageLabel" for="itemsPerPageSelect"> Items per page: </label>
+                    <select id="itemsPerPageSelect">
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                    <lable id="shownAndTotalLabel">0 - 0 of 0</lable>
+                    <button class="navigationTableButton" id="firstPageTable">&lt;&lt;</button>
+                    <button class="navigationTableButton" id="previousPageTable">&lt;</button>
+                    <button class="navigationTableButton" id="nextPageTable">&gt;</button>
+                    <button class="navigationTableButton" id="lastPageTable">&gt;&gt;</button>
+                </div>
+            </div>
+        </fieldset>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
