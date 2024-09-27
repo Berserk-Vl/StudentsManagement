@@ -1,0 +1,11 @@
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Petrov', 'Petr', 'Petrovich', '10.10.2003', '3IV');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Ivanov', 'Ivan', 'Ivanovich', '01.09.2004', '4IVT');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Sergeev', 'Sergei', 'Sergeevich', '05.11.2002', '5M');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Belyaev', 'Artem', 'Pavlovich', '08.03.2003', '3IV');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Kovalyov', 'Alexander', 'Niloevich', '25.12.2002', '5M');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Belaya', 'Marina', 'Romanovna', '17.06.2004', '4IVT');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Leonov', 'Vladimir', 'Pavlovich', '10.12.2003', '3IV');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Suvorova', 'Vera', 'Rodionovna', '31.03.2002', '5M');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Rusova', 'Lubov', 'Petrovna', '29.02.2003', '3IV');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Korol', 'Vadim', 'Vadimovich', '17.06.2002', '5M');
+INSERT INTO students(surname, name, patronymic, date_of_birth, group_id) VALUES('Kravec', 'Semyon', 'Semyonovich', '11.11.2004', '4IVT');
